@@ -1,0 +1,27 @@
+{
+  "name": "generator-hello-yeoman",
+  "version": "1.0.0",
+  "description": "Yeoman workshop sample",
+  "keywords": [
+    "yeoman-generator"
+  ],
+  "files": [
+    "generators"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Maximilian Lamm <maximilianlamm.kontakt@outlook.de>",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^5.2.0",
+    "lodash": "^4.17.21",
+    "yeoman-generator": "^5.7.0",
+    "yosay": "^2.0.2"
+  },
+  "devDependencies": {
+    "@types/lodash": "^4.14.191",
+    "@types/yeoman-generator": "^5.2.11",
+    "typescript": "^4.9.4"
+  }
+}
