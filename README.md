@@ -27,8 +27,5 @@
 
 ## TODO:
 
-* crate modules  
-* config for nestjs
-* git
-* dockerfile
+* create modules
 * ...

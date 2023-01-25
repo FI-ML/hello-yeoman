@@ -74,6 +74,13 @@ export default class extends Generator {
                 description: this.answers.projectDescription
             });
 
+        this.fs.copyTpl(this.templatePath('_postgres.database.provider.module.ts'),
+            this.destinationPath(`${this.answers.projectName}/src/providers/postgres.database.provider.module.ts`), {
+                appname: this.answers.projectName,
+                username: this.answers.username,
+                description: this.answers.projectDescription
+            });
+
 
         this.fs.copyTpl(this.templatePath('_app.module.ts'),
             this.destinationPath(`${this.answers.projectName}/src/app.module.ts`), {
